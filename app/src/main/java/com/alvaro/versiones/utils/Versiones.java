@@ -38,28 +38,4 @@ public class Versiones implements Serializable {
     public int getLogoDetalle() {
         return fotoDetalle;
     }
-
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
-    }
-
-    public void setDescripcion(String detalle) {
-        this.detalle = detalle;
-    }
-
-    public void setFecha(String fecha) {
-        this.fecha = fecha;
-    }
-
-    public void setNro_version(String nro_version) {
-        this.nro_version = nro_version;
-    }
-
-    public void setLogoMain(int logoMain) {
-        this.fotoMain = logoMain;
-    }
-
-    public void setLogoDescripcion(int logoDetalle) {
-        this.fotoDetalle = logoDetalle;
-    }
 }
